@@ -1,0 +1,34 @@
+{
+    "name": "chris-hwuang/php-template",
+    "description": "PHP repo template",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chris hwuang",
+            "email": "chris_hwuang@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "psr-0": {},
+        "classmap": [],
+        "files": [],
+        "excluded-from-map": [
+            "/**/tests/",
+            "/**/test/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+# mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# composer
+vendor/
+composer.lock
